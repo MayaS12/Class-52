@@ -1,0 +1,63 @@
+.menu{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin: 40px;
+    font-family: cursive;
+    font-size: xx-large;
+}
+.aboutme{
+    margin: 40px;
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: 200px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.intro{
+    text-align: center;
+    font-size: xx-large;   
+    font-family: fantasy;
+}
+.item{
+    margin: 20px;
+    text-align: center;
+    padding: 40px;
+    background-color: lightskyblue;
+    border-radius: 15px;
+    font-family: fantasy;
+}
+body{
+    /* background-color: lightgreen; */
+    background-image: url("Bg.jpg");
+}
+a:link{
+    color: magenta;
+}
+a:visited{
+    color: mediumblue;
+}
+a{
+    text-decoration: none;
+}
+/* .item{
+    position: relative;
+}
+.item h3{
+    position: absolute;
+     top: 50%;
+    left: 50%; 
+    transform: translateX(-50%); 
+     color: white;
+ }  */
+ .item h3{
+     opacity: 0;
+ }
+.item:hover h3{
+    opacity: 1;
+}
